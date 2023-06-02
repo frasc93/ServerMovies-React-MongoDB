@@ -1,7 +1,7 @@
 import request from 'supertest';
 import app from '../app';
 import chai from 'chai';
-import { Product } from "../models/Product";
+import Product from "../models/Product";
 const basicUrl = "/v1/products";
 const expect = chai.expect;
 
